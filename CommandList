@@ -10,4 +10,5 @@
 >> \\<ControllerName>\HLKInstall\Client\Setup.cmd. 
 *********************FORMAT DISK*********************************
 >> FORMAT FS=NTFS LABEL=""New Volume" QUICK COMPRESS
-*****************************************************************
+**********************SHUT DOWN*******************************************
+>> Shutdown -s -t 0 // -t 0 means you can set a timer for shutting down the machine
