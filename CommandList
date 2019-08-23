@@ -12,3 +12,9 @@
 >> FORMAT FS=NTFS LABEL=""New Volume" QUICK COMPRESS
 **********************SHUT DOWN*******************************************
 >> Shutdown -s -t 0 // -t 0 means you can set a timer for shutting down the machine
+**********************COPY FILES******************************************
+>> dir // the same option as ls in shell
+>> xcopy file1 direction1 // Firest enter the file1 path, then type the direction path you want to copy to.
+**********************EXECUTE COMMAND(WINDOWS + R)***********************
+>> // ctrl+alt+delete can call out the execute window
+
