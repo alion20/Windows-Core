@@ -4,7 +4,7 @@
 >> wmic computersystem where name="%computername%" set AutomaticManagedPagefile=False   //Disable the automation of pagefile volume management
 >> wmic pagefileset where name="C:\\pagefile.sys" set InitialSize=****,MaximumSize=**** //Setting the pagefile volume manually.
 *********************FIREWALL ADJESTMENT*************************
->> // First type the "powershall" for start the powershell
+>> // First type the "powershell" for start the powershell
 >> Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled false //Disable the firewall function
 *********************TESTKIT INSTALL*****************************
 >> \\<ControllerName>\HLKInstall\Client\Setup.cmd. 
