@@ -17,4 +17,10 @@
 >> xcopy file1 direction1 // Firest enter the file1 path, then type the direction path you want to copy to.
 **********************EXECUTE COMMAND(WINDOWS + R)***********************
 >> // ctrl+alt+delete can call out the execute window
-
+**********************DISK PARTITION FORMAT AND ONLINE*******************
+>> select disk 1
+>> online disk
+>> attributes disk
+>> attributes disk clear readonly
+>> clean
+**************************************************************************
