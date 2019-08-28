@@ -23,4 +23,5 @@
 >> attributes disk
 >> attributes disk clear readonly
 >> clean
+>> create partition primary
 **************************************************************************
