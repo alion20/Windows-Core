@@ -19,9 +19,10 @@
 >> // ctrl+alt+delete can call out the execute window
 **********************DISK PARTITION FORMAT AND ONLINE*******************
 >> select disk 1
->> online disk
->> attributes disk
->> attributes disk clear readonly
->> clean
->> create partition primary
+  >> online disk
+    >> attributes disk
+      >> attributes disk clear readonly
+        >> clean  // means that the disk are formated, but not create any partition yet.
+>> create partition primary // choose the select disk, and created the partition for it, but the statsu of the disk are turning to the RAW and not-formated status.
+>> help format // list volume can see the volume, choose the format command to format that disk again.
 **************************************************************************
