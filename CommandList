@@ -26,3 +26,8 @@
 >> create partition primary // choose the select disk, and created the partition for it, but the statsu of the disk are turning to the RAW and not-formated status.
 >> help format // list volume can see the volume, choose the format command to format that disk again.
 **************************************************************************
+
+
+******************Core to GUI*********************************************
+Install-WindowsFeature Desktop-Experience -Restart 
+**************************************************************************
