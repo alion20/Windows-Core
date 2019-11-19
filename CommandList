@@ -7,8 +7,8 @@
 >> // First type the "powershell" for start the powershell
 >> Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled false //Disable the firewall function
 *********************TESTKIT INSTALL*****************************
->> \\<ControllerName>\HLKInstall\Client\Setup.cmd. 
-*********************FORMAT DISK*********************************
+>> \\<ControllerName or Host IP>\HLKInstall\Client\Setup.cmd. 
+*********************FORMAT DISK if you can find the HDD in the disk and can't find on list volume*********************************
 >> FORMAT FS=NTFS LABEL=""New Volume" QUICK COMPRESS
 **********************SHUT DOWN*******************************************
 >> Shutdown -s -t 0 // -t 0 means you can set a timer for shutting down the machine
@@ -25,9 +25,10 @@
         >> clean  // means that the disk are formated, but not create any partition yet.
 >> create partition primary // choose the select disk, and created the partition for it, but the statsu of the disk are turning to the RAW and not-formated status.
 >> help format // list volume can see the volume, choose the format command to format that disk again.
+>> // set label information to the drive
 **************************************************************************
 
 
-******************Core to GUI*********************************************
+******************Core to GUI ( only work on 2012R2****************************************
 Install-WindowsFeature Desktop-Experience -Restart 
-**************************************************************************
+*******************************************************************************************
